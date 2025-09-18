@@ -1,0 +1,61 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------------< org.example.talend.job:file_to_db >------------------
+[INFO] Building TALEND file_to_db-0.1.0 (0.1,Job Designs) 0.1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] The POM for org.talend.components:talendcsv:jar:1.1.0 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-core:jar:2.14.0 is missing, no dependency information available
+[WARNING] The POM for com.fasterxml.jackson.core:jackson-annotations:jar:2.14.0 is missing, no dependency information available
+[WARNING] The POM for org.ow2.asm:asm:jar:9.3 is missing, no dependency information available
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ file_to_db ---
+[WARNING] The POM for commons-io:commons-io:jar:2.11.0 is missing, no dependency information available
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:copy-resources (copy-wsdl) @ file_to_db ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Talend-Studio\abcTalend1-623707709\TALEND\poms\jobs\process\Dev_Jobs\file_to_db_0.1\src\main\java\talend\file_to_db_0_1\wsdl
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ file_to_db ---
+[WARNING] The POM for org.bouncycastle:bcpg-jdk18on:jar:1.77 is missing, no dependency information available
+[WARNING] The POM for org.bouncycastle:bcprov-jdk18on:jar:1.77 is missing, no dependency information available
+[WARNING] The POM for commons-codec:commons-codec:jar:1.17.0 is missing, no dependency information available
+[WARNING] The POM for commons-io:commons-io:jar:2.16.1 is missing, no dependency information available
+[WARNING] The POM for org.slf4j:slf4j-api:jar:2.0.13 is missing, no dependency information available
+[WARNING] The POM for org.apache.commons:commons-compress:jar:1.23.0 is missing, no dependency information available
+[WARNING] The POM for commons-io:commons-io:jar:2.6 is missing, no dependency information available
+[INFO] Not compiling main sources
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ file_to_db ---
+[INFO] Not copying test resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ file_to_db ---
+[INFO] Not compiling test sources
+[INFO] 
+[INFO] --- surefire:3.3.0:test (default-test) @ file_to_db ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- jar:3.3.0:jar (default-jar) @ file_to_db ---
+[WARNING] The POM for org.codehaus.plexus:plexus-archiver:jar:4.4.0 is missing, no dependency information available
+[INFO] Building jar: D:\Talend-Studio\abcTalend1-623707709\TALEND\poms\jobs\process\Dev_Jobs\file_to_db_0.1\target\file_to_db_0_1.jar
+[INFO] 
+[INFO] --- assembly:3.6.0:single (default) @ file_to_db ---
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-api:jar:1.6.3 is missing, no dependency information available
+[WARNING] The POM for org.apache.maven.resolver:maven-resolver-util:jar:1.6.3 is missing, no dependency information available
+[WARNING] The POM for org.slf4j:slf4j-api:jar:1.7.30 is missing, no dependency information available
+[WARNING] The POM for com.google.guava:guava:jar:25.1-android is missing, no dependency information available
+[INFO] Reading assembly descriptor: D:\Talend-Studio\abcTalend1-623707709\TALEND\poms\jobs\process\Dev_Jobs\file_to_db_0.1/src/main/assemblies/assembly.xml
+[INFO] Building zip: D:\Talend-Studio\abcTalend1-623707709\TALEND\poms\jobs\process\Dev_Jobs\file_to_db_0.1\target\file_to_db_0_1.zip
+[INFO] 
+[INFO] --- signer:8.0.13:sign (sign) @ file_to_db ---
+[WARNING] The POM for org.codehaus.plexus:plexus-utils:jar:1.5.5 is missing, no dependency information available
+[INFO] Start to sign the job artifact
+[INFO] Start to sign artifact, the source file is file_to_db_0_1.zip and target file is file_to_db_0_1_sign_.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  19.614 s
+[INFO] Finished at: 2025-09-11T16:14:14+05:30
+[INFO] ------------------------------------------------------------------------
