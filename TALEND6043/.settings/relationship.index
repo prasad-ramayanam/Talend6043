@@ -1,16 +1,5 @@
 [ {
   "baseItem" : {
-    "id" : "_HGN-gJaoEfC72uOw-twddw",
-    "version" : "0.1",
-    "type" : "job"
-  },
-  "relatedItems" : [ {
-    "id" : "TALEND6043:_dGLIUJagEfC72uOw-twddw",
-    "version" : "Latest",
-    "type" : "job"
-  } ]
-}, {
-  "baseItem" : {
     "id" : "_dGLIUJagEfC72uOw-twddw",
     "version" : "0.1",
     "type" : "job"
